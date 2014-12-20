@@ -1,0 +1,245 @@
+/*Seperate CSS file for additional custom style 
+added on top of the skeleton css file*/
+
+/*sections*/
+
+/*Flaticon font-size*/
+/*Had problem changing the font size using custom stylesheet,
+so changed font-size in the flaticon.css*/
+
+
+/*Changed list style in skeleton to none*/
+
+
+/*breakpoints*/
+
+/*Mobile width: i-phone 5*/
+@media (min-width: 300px){
+
+	html{
+		background-color: #eef7fa;
+	}
+
+	h5{
+		font-size: 2.0rem;
+	}
+
+	h4{
+		font-size: 3rem;
+	}
+
+	.achivements-spaceing ul{
+		padding: 2rem 0;
+	}
+
+	.head{
+		padding: 4rem 0 3rem;
+	}
+
+	.head_title{
+		position: relative;
+	}
+
+	#name{
+		font-size: 4rem;
+		text-align: center;
+	}
+
+	.social_div{
+		text-align: center;
+	}
+	
+	/*Font awesome fonts*/
+	.social_div i{
+		font-size: 4rem;
+		margin: 0 .75rem;
+	}
+
+	.social_div i:hover{
+		color: #919191;
+		cursor: pointer;
+	}
+
+	.button{
+		width: inherit;
+		padding: 1rem 3rem;
+		height: 5rem;
+	}
+
+	.education{
+		padding: 6rem 0;
+		margin-top: 2rem;
+	}
+
+	.experience{
+		padding: 6rem 0;
+		margin-top: 2rem;
+	}
+
+	.achivements{
+		padding: 6rem 0;
+		margin-top: 2rem;
+	}
+
+	.achivements-spaceing ul{
+		padding: 2rem 0;
+	}
+
+	.skills{
+		padding: 4rem 0;
+		margin-top: 2rem;
+	}
+	
+	/*CSS for creating skills tags in skills section*/
+	.skill_set ul li{
+  		border: 1px hidden black;
+  		width: auto;
+  		line-height: 30px;
+  		padding: 0 8px;
+  		margin-bottom: 10px;
+ 		position: relative;
+  		background-color: #222;
+  		color: white;
+	}
+	
+	/*CSS for creating the end of the skill tags in skill section*/
+	.skill_set ul li .end-skill-tag{
+  		top: 0;
+  		right: 0;
+  		/*cant change from 15px without breaking*/
+  		border: 15px solid transparent;
+  		/*needs to be same color as background of container*/
+  		background-color: white;
+  		border-left-color: #222;
+  		position: absolute;
+	}
+
+	.interests{
+		padding: 4rem 0;
+		margin-top: 2rem;
+	}
+
+	.interests h6{
+		font-size: 2rem;
+		text-align: center;
+	}
+
+	.interests i{
+		display: block;
+		margin: auto;
+		width: 150px; /*makes the icon font position at center*/
+		margin-bottom: 1.5rem;
+	}
+	
+	.skill_set ul li{
+		list-style-type: none;
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	
+	.experience{
+		padding: 4rem 0;
+		margin-top: 2rem;
+	}
+	
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	
+	.head{
+		padding: 14rem 0;
+	}
+
+	.button{
+		width: 60%;
+		height: 3.8rem;
+		padding: 0 3rem;
+		display: block;
+		margin: 1.5rem auto;
+	}
+	
+	/*Font awesome fonts*/
+	.social_div i{
+		margin: 0 1rem;
+	}
+
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+	
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+
+	.name_div{
+		float: left;
+		min-width: 50%;
+		margin-right: 5%;
+	}
+
+	.social_div{
+		float: left;
+		min-width: 20%; 
+	}
+	
+	.social_div i{
+		font-size: 4rem;
+		margin: 1.5rem .5rem 0 1rem;
+	}
+
+	.button{
+		display: inline-block;
+		width: auto;
+	}
+
+	.head{
+		padding: 18rem 0;
+		margin-top: 4rem;
+	}
+
+	#name{
+		font-size: 5.5rem;
+		text-align: left;
+		
+	}
+
+	.education{
+		padding: 11rem 0;	
+		margin-top: 5rem;
+	}
+
+	.experience{
+		padding: 8rem 0;
+		margin-top: 3rem;
+	}
+
+	.achivements{
+		padding: 8rem 0;
+		margin-top: 4rem;
+	}
+
+	.skills{
+		padding: 6rem 0;
+		margin-top: 6rem;
+	}
+	
+	.interests{
+		padding: 8rem 0;
+		margin-top: 6rem;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+
+
+}
