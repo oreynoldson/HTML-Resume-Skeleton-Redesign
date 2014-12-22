@@ -33,7 +33,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head{
-		padding: 4rem 0 3rem;
+		padding: 3rem 0 2rem;
 	}
 
 	.head_title{
@@ -41,21 +41,21 @@ so changed font-size in the flaticon.css*/
 	}
 
 	#name{
-		font-size: 4rem;
+		font-size: 3rem;
 		text-align: center;
 	}
 
-	.social_div{
-		text-align: center;
+	.social_div a{
+		color: #222;
 	}
 	
 	/*Font awesome fonts*/
 	.social_div i{
-		font-size: 4rem;
+		font-size: 3.25rem;
 		margin: 0 .75rem;
 	}
 
-	.social_div i:hover{
+	.social_div a:hover{
 		color: #919191;
 		cursor: pointer;
 	}
@@ -64,6 +64,19 @@ so changed font-size in the flaticon.css*/
 		width: inherit;
 		padding: 1rem 3rem;
 		height: 5rem;
+	}
+
+	.scroll-row{
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	.scroll-row a{
+		color: #222;
+	}
+
+	.scroll-row a:hover{
+		cursor: pointer;
 	}
 
 	.education{
@@ -89,6 +102,14 @@ so changed font-size in the flaticon.css*/
 		padding: 4rem 0;
 		margin-top: 2rem;
 	}
+
+
+	.footer p{
+		text-align: center;
+		margin-bottom: 0;
+		padding: 0 .5rem;
+	}
+
 	
 	/*CSS for creating skills tags in skills section*/
 	.skill_set ul li{
@@ -109,7 +130,7 @@ so changed font-size in the flaticon.css*/
   		/*cant change from 15px without breaking*/
   		border: 15px solid transparent;
   		/*needs to be same color as background of container*/
-  		background-color: white;
+  		background-color: #eef7fa;
   		border-left-color: #222;
   		position: absolute;
 	}
@@ -142,18 +163,28 @@ so changed font-size in the flaticon.css*/
 /* Larger than mobile */
 @media (min-width: 400px) {
 	
+	.head{
+		padding: 6rem 0;
+	
+	}
+
+	.scroll-row .head{
+		margin-top: 6.5rem;
+	}
+
 	.experience{
 		padding: 4rem 0;
 		margin-top: 2rem;
 	}
 	
+
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	
 	.head{
-		padding: 14rem 0;
+		padding: 8rem 0 4rem 0;
 	}
 
 	.button{
@@ -169,11 +200,14 @@ so changed font-size in the flaticon.css*/
 		margin: 0 1rem;
 	}
 
+	.scroll-row .head{
+		margin-top: 8.5rem;
+	}
+
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
-
 	
 }
 
@@ -202,14 +236,17 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head{
-		padding: 18rem 0;
+		padding: 14rem 0 2rem 0;
 		margin-top: 4rem;
 	}
 
 	#name{
 		font-size: 5.5rem;
 		text-align: left;
-		
+	}
+
+	.scroll-row .head{
+		margin-top: 10.5rem;
 	}
 
 	.education{
@@ -241,5 +278,12 @@ so changed font-size in the flaticon.css*/
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 
+.head{
+		padding: 16rem 0 2rem 0;
+		margin-top: 4rem;
+	}
 
+.scroll-row .head{
+		margin-top: 16.5rem;
+	}
 }
