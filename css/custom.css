@@ -16,6 +16,8 @@ so changed font-size in the flaticon.css*/
 /*Mobile width: i-phone 5*/
 @media (min-width: 300px){
 
+/*Utilities*/
+
 	html{
 		background-color: #eef7fa;
 	}
@@ -28,12 +30,10 @@ so changed font-size in the flaticon.css*/
 		font-size: 3rem;
 	}
 
-	.achivements-spaceing ul{
-		padding: 2rem 0;
-	}
+/*Head section*/	
 
 	.head{
-		padding: 3rem 0 2rem;
+		padding: 2rem 0 2rem;
 	}
 
 	.head_title{
@@ -44,6 +44,11 @@ so changed font-size in the flaticon.css*/
 		font-size: 3rem;
 		text-align: center;
 	}
+	
+	/*Social icons*/
+	.social_div{
+		text-align: center;
+	}
 
 	.social_div a{
 		color: #222;
@@ -51,7 +56,7 @@ so changed font-size in the flaticon.css*/
 	
 	/*Font awesome fonts*/
 	.social_div i{
-		font-size: 3.25rem;
+		font-size: 3rem;
 		margin: 0 .75rem;
 	}
 
@@ -59,7 +64,8 @@ so changed font-size in the flaticon.css*/
 		color: #919191;
 		cursor: pointer;
 	}
-
+	
+	/*Button links*/
 	.button{
 		width: inherit;
 		padding: 1rem 3rem;
@@ -79,18 +85,24 @@ so changed font-size in the flaticon.css*/
 		cursor: pointer;
 	}
 
+/*Education section*/
+
 	.education{
-		padding: 6rem 0;
+		padding: 3rem 0 2rem 0;
 		margin-top: 2rem;
 	}
+
+/*Experience section*/
 
 	.experience{
-		padding: 6rem 0;
+		padding: 3rem 0;
 		margin-top: 2rem;
 	}
 
+/*Achievements section*/
+
 	.achivements{
-		padding: 6rem 0;
+		padding: 3rem 0;
 		margin-top: 2rem;
 	}
 
@@ -98,8 +110,11 @@ so changed font-size in the flaticon.css*/
 		padding: 2rem 0;
 	}
 
+
+/*Skills section*/
+
 	.skills{
-		padding: 4rem 0;
+		padding: 3rem 0;
 		margin-top: 2rem;
 	}
 
@@ -117,10 +132,14 @@ so changed font-size in the flaticon.css*/
   		width: auto;
   		line-height: 30px;
   		padding: 0 8px;
-  		margin-bottom: 10px;
+  		margin-bottom: 1px;
+  		margin-top: 2rem;
  		position: relative;
   		background-color: #222;
   		color: white;
+  		list-style-type: none;
+		text-align: center;
+		
 	}
 	
 	/*CSS for creating the end of the skill tags in skill section*/
@@ -135,13 +154,15 @@ so changed font-size in the flaticon.css*/
   		position: absolute;
 	}
 
+/*Interests section*/
+
 	.interests{
 		padding: 4rem 0;
 		margin-top: 2rem;
 	}
 
 	.interests h6{
-		font-size: 2rem;
+		font-size: 2.5rem;
 		text-align: center;
 	}
 
@@ -150,12 +171,6 @@ so changed font-size in the flaticon.css*/
 		margin: auto;
 		width: 150px; /*makes the icon font position at center*/
 		margin-bottom: 1.5rem;
-	}
-	
-	.skill_set ul li{
-		list-style-type: none;
-		text-align: center;
-		margin-top: 2rem;
 	}
 
 }
@@ -168,7 +183,7 @@ so changed font-size in the flaticon.css*/
 	
 	}
 
-	.scroll-row .head{
+	.scroll-row-head{
 		margin-top: 6.5rem;
 	}
 
@@ -200,7 +215,7 @@ so changed font-size in the flaticon.css*/
 		margin: 0 1rem;
 	}
 
-	.scroll-row .head{
+	.scroll-row-head{
 		margin-top: 8.5rem;
 	}
 
@@ -208,7 +223,14 @@ so changed font-size in the flaticon.css*/
 
 /* Larger than tablet */
 @media (min-width: 750px) {
+
+	.head{
+		padding: 12rem 0 4rem 0;
+	}
 	
+	.scroll-row-head{
+		margin-top: 10.5rem;
+	}
 }
 
 /* Larger than desktop */
@@ -236,7 +258,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head{
-		padding: 14rem 0 2rem 0;
+		padding: 16rem 0 4rem 0;
 		margin-top: 4rem;
 	}
 
@@ -245,8 +267,8 @@ so changed font-size in the flaticon.css*/
 		text-align: left;
 	}
 
-	.scroll-row .head{
-		margin-top: 10.5rem;
+	.scroll-row-head{
+		margin-top: 16.5rem;
 	}
 
 	.education{
@@ -283,7 +305,7 @@ so changed font-size in the flaticon.css*/
 		margin-top: 4rem;
 	}
 
-.scroll-row .head{
+.scroll-row-head{
 		margin-top: 16.5rem;
 	}
 }
