@@ -92,11 +92,31 @@ so changed font-size in the flaticon.css*/
 		margin-top: 2rem;
 	}
 
+	#education{
+		text-align: center;
+	}
+
 /*Experience section*/
 
 	.experience{
 		padding: 3rem 0;
 		margin-top: 2rem;
+	}
+	
+	/*Align heading*/
+	#experience{
+		text-align: center;
+	}
+	
+	/*No bottom margin to make the heading closer to fist job*/
+	.experience .row{
+		margin-bottom: 0;
+	}
+	
+	/*Center aligns text and makes headings bold*/
+	.experience .row h5{
+		font-weight: 700;
+		text-align: center;
 	}
 
 /*Achievements section*/
@@ -105,9 +125,20 @@ so changed font-size in the flaticon.css*/
 		padding: 3rem 0;
 		margin-top: 2rem;
 	}
+	
+	/*Center align the section title*/
+	#achievements{
+		text-align: center;
+	}
 
-	.achivements-spaceing ul{
+	/*.achivements-spaceing ul{
 		padding: 2rem 0;
+	}*/
+	
+	/*Center and bold achievements headings*/
+	.achivements .row h5{
+		font-weight: 700;
+		text-align: center;
 	}
 
 
@@ -117,7 +148,11 @@ so changed font-size in the flaticon.css*/
 		padding: 3rem 0;
 		margin-top: 2rem;
 	}
-
+	
+	/*Center align the section title*/
+	#skills{
+		text-align: center;
+	}
 
 	.footer p{
 		text-align: center;
@@ -160,10 +195,16 @@ so changed font-size in the flaticon.css*/
 		padding: 4rem 0;
 		margin-top: 2rem;
 	}
+	
+	/*Center align the section title*/
+	#interests{
+		text-align: center;
+	}
 
 	.interests h6{
 		font-size: 2.5rem;
 		text-align: center;
+		font-weight: 700;
 	}
 
 	.interests i{
@@ -175,16 +216,42 @@ so changed font-size in the flaticon.css*/
 
 }
 
-/* Larger than mobile */
-@media (min-width: 400px) {
-	
+/*I-phone 6*/
+@media (min-width: 375px){
+
 	.head{
 		padding: 6rem 0;
 	
 	}
 
+	.education{
+		padding: 5rem 0 4rem 0;
+	}
+
+	.interests{
+		padding: 2rem 0;
+	}
+
+}
+
+/* I phone 6 plus */
+@media (min-width: 400px) {
+	
+	.head{
+		padding: 9rem 0;
+	
+	}
+
 	.scroll-row-head{
 		margin-top: 6.5rem;
+	}
+
+	.education {
+		padding: 9rem 0 5rem 0;
+	}
+
+	.skills {
+		padding: 6rem 0;
 	}
 
 	.experience{
@@ -198,8 +265,8 @@ so changed font-size in the flaticon.css*/
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
 	
-	.head{
-		padding: 8rem 0 4rem 0;
+	.head {
+		padding: 12rem 0 9rem 0;
 	}
 
 	.button{
@@ -219,13 +286,33 @@ so changed font-size in the flaticon.css*/
 		margin-top: 8.5rem;
 	}
 
+	.education {
+		padding: 12rem 0 9rem 0;
+	}
+
+	.achivements {
+		padding: 9rem 0;
+	}
+
+	.skills {
+	padding: 20rem 0;
+	}
+	
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) {
 
 	.head{
-		padding: 12rem 0 4rem 0;
+		padding: 12rem 0 10rem 0;
+	}
+
+	.education {
+		padding: 15rem 0 15rem 0;
+	}
+
+	.achivements {
+		padding: 12rem 0;
 	}
 	
 	.scroll-row-head{
@@ -258,7 +345,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head{
-		padding: 16rem 0 4rem 0;
+		padding: 19rem 0 13rem 0;
 		margin-top: 4rem;
 	}
 
@@ -272,40 +359,68 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.education{
-		padding: 11rem 0;	
+		padding: 15rem 0;	
 		margin-top: 5rem;
 	}
 
 	.experience{
-		padding: 8rem 0;
-		margin-top: 3rem;
+		padding: 5rem 0;
+	}
+
+	/*Center aligns text and makes headings bold*/
+	.experience .row h5{
+		text-align: left;
 	}
 
 	.achivements{
-		padding: 8rem 0;
+		padding: 13rem 0;
 		margin-top: 4rem;
 	}
 
+	.achivements .row h5{
+		text-align: left;
+	}
+
 	.skills{
-		padding: 6rem 0;
+		padding: 18rem 0;
 		margin-top: 6rem;
 	}
 	
 	.interests{
-		padding: 8rem 0;
-		margin-top: 6rem;
+		padding: 6rem 0;
 	}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 
-.head{
-		padding: 16rem 0 2rem 0;
-		margin-top: 4rem;
+	.head{
+			padding: 15rem 0 17rem 0;
+		}
+
+	.scroll-row-head{
+			margin-top: 16.5rem;
+		}
+
+	.education {
+		padding: 14rem 0 16rem 0;
+		}
+
+	.experience{
+		padding: 2rem 0;
 	}
 
-.scroll-row-head{
-		margin-top: 16.5rem;
+	.achivements {
+		padding: 6rem 0;
 	}
-}
+
+	.skills {
+		padding: 8rem 0 12rem 0;
+	}
+
+	.interests {
+		padding: 2rem 0 2rem 0;
+	}
+
+
+}/*end break point 1200px*/
