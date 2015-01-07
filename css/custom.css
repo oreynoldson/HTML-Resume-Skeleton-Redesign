@@ -43,6 +43,7 @@ so changed font-size in the flaticon.css*/
 	#name{
 		font-size: 3rem;
 		text-align: center;
+		font-weight: 700;
 	}
 	
 	/*Social icons*/
@@ -89,23 +90,23 @@ so changed font-size in the flaticon.css*/
 
 	.education{
 		padding: 3rem 0 2rem 0;
-		margin-top: 2rem;
 	}
 
 	#education{
 		text-align: center;
+		font-weight: 700;
 	}
 
 /*Experience section*/
 
 	.experience{
 		padding: 3rem 0;
-		margin-top: 2rem;
 	}
 	
 	/*Align heading*/
 	#experience{
 		text-align: center;
+		font-weight: 700;
 	}
 	
 	/*No bottom margin to make the heading closer to fist job*/
@@ -129,6 +130,7 @@ so changed font-size in the flaticon.css*/
 	/*Center align the section title*/
 	#achievements{
 		text-align: center;
+		font-weight: 700;
 	}
 
 	/*.achivements-spaceing ul{
@@ -152,6 +154,7 @@ so changed font-size in the flaticon.css*/
 	/*Center align the section title*/
 	#skills{
 		text-align: center;
+		font-weight: 700;
 	}
 
 	.footer p{
@@ -199,6 +202,7 @@ so changed font-size in the flaticon.css*/
 	/*Center align the section title*/
 	#interests{
 		text-align: center;
+		font-weight: 700;
 	}
 
 	.interests h6{
@@ -282,22 +286,33 @@ so changed font-size in the flaticon.css*/
 		margin: 0 1rem;
 	}
 
-	.scroll-row-head{
-		margin-top: 8.5rem;
+	.head .scroll-row{
+		margin-top: 16.5rem;
 	}
 
 	.education {
 		padding: 12rem 0 9rem 0;
 	}
 
+	.education .scroll-row{
+		margin-top: 8rem;
+	}
+
 	.achivements {
 		padding: 9rem 0;
 	}
 
+	.achivements .scroll-row{
+		margin-top: 6rem;
+	}
+
 	.skills {
-	padding: 20rem 0;
+		padding: 20rem 0;
 	}
 	
+	.skills .scroll-row{
+		margin-top: 15rem;
+	}
 }
 
 /* Larger than tablet */
@@ -311,13 +326,18 @@ so changed font-size in the flaticon.css*/
 		padding: 15rem 0 15rem 0;
 	}
 
+	.education .scroll-row{
+		margin-top: 16rem;
+	}
+
+	.achivements .scroll-row{
+		margin-top: 13rem;
+	}
+
 	.achivements {
 		padding: 12rem 0;
 	}
 	
-	.scroll-row-head{
-		margin-top: 10.5rem;
-	}
 }
 
 /* Larger than desktop */
@@ -354,8 +374,8 @@ so changed font-size in the flaticon.css*/
 		text-align: left;
 	}
 
-	.scroll-row-head{
-		margin-top: 16.5rem;
+	.head .scroll-row{
+		margin-top: 22rem;
 	}
 
 	.education{
@@ -396,26 +416,42 @@ so changed font-size in the flaticon.css*/
 
 	.head{
 			padding: 15rem 0 17rem 0;
-		}
+	}
 
-	.scroll-row-head{
-			margin-top: 16.5rem;
-		}
+	.head .scroll-row{
+		margin-top: 37rem;
+	}
 
 	.education {
 		padding: 10rem 0 16rem 0;
-		}
+	}
+
+	.education .scroll-row{
+		margin-top: 22rem;
+	}
 
 	.experience{
 		padding: 2rem 0;
+	}
+
+	.experience .scroll-row{
+		margin-top: 10rem;
 	}
 
 	.achivements {
 		padding: 6rem 0;
 	}
 
+	.achivements .scroll-row{
+		margin-top: 21rem;
+	}
+
 	.skills {
 		padding: 8rem 0 12rem 0;
+	}
+
+	.skills .scroll-row{
+		margin-top: 28rem;
 	}
 
 	.interests {
