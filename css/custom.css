@@ -10,7 +10,6 @@ so changed font-size in the flaticon.css*/
 
 /*Changed list style in skeleton to none*/
 
-
 /*breakpoints*/
 
 /*Mobile width: i-phone 5*/
@@ -419,7 +418,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head .scroll-row{
-		margin-top: 37rem;
+		margin-top: 19rem;
 	}
 
 	.education {
@@ -427,7 +426,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.education .scroll-row{
-		margin-top: 22rem;
+		margin-top: 10rem;
 	}
 
 	.experience{
@@ -435,7 +434,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.experience .scroll-row{
-		margin-top: 10rem;
+		margin-top: 8rem;
 	}
 
 	.achivements {
@@ -443,7 +442,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.achivements .scroll-row{
-		margin-top: 21rem;
+		margin-top: 11rem;
 	}
 
 	.skills {
@@ -451,7 +450,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.skills .scroll-row{
-		margin-top: 28rem;
+		margin-top: 16rem;
 	}
 
 	.interests {
