@@ -32,7 +32,7 @@ so changed font-size in the flaticon.css*/
 /*Head section*/	
 
 	.head{
-		padding: 2rem 0 2rem;
+		padding: 6.75% 0 6.75%;
 	}
 
 	.head_title{
@@ -57,7 +57,7 @@ so changed font-size in the flaticon.css*/
 	/*Font awesome fonts*/
 	.social_div i{
 		font-size: 3rem;
-		margin: 0 .75rem;
+		margin: 0.75rem;
 	}
 
 	.social_div a:hover{
@@ -68,8 +68,6 @@ so changed font-size in the flaticon.css*/
 	/*Button links*/
 	.button{
 		width: inherit;
-		padding: 1rem 3rem;
-		height: 5rem;
 	}
 
 	.scroll-row{
@@ -88,7 +86,8 @@ so changed font-size in the flaticon.css*/
 /*Education section*/
 
 	.education{
-		padding: 3rem 0 2rem 0;
+		/*padding: 3rem 0 2rem 0;*/
+		padding: 6% 0 4% 0;
 	}
 
 	#education{
@@ -99,13 +98,14 @@ so changed font-size in the flaticon.css*/
 /*Experience section*/
 
 	.experience{
-		padding: 3rem 0;
+		padding: 6% 0;
 	}
 	
 	/*Align heading*/
 	#experience{
 		text-align: center;
 		font-weight: 700;
+		margin-bottom: 0;
 	}
 	
 	/*No bottom margin to make the heading closer to fist job*/
@@ -117,52 +117,56 @@ so changed font-size in the flaticon.css*/
 	.experience .row h5{
 		font-weight: 700;
 		text-align: center;
+		margin-top: 15%;
 	}
 
 /*Achievements section*/
 
 	.achivements{
-		padding: 3rem 0;
-		margin-top: 2rem;
+		padding: 9% 0;
 	}
 	
 	/*Center align the section title*/
 	#achievements{
 		text-align: center;
 		font-weight: 700;
+		margin-bottom: 0;
 	}
 
-	/*.achivements-spaceing ul{
-		padding: 2rem 0;
-	}*/
+	.achivements .row{
+		margin-bottom: 0;
+	}
 	
 	/*Center and bold achievements headings*/
 	.achivements .row h5{
 		font-weight: 700;
 		text-align: center;
+		margin-top: 15%;
 	}
 
 
 /*Skills section*/
 
 	.skills{
-		padding: 3rem 0;
-		margin-top: 2rem;
+		padding: 10% 0;
+	}
+
+	.skills .row{
+		margin-bottom: 0;
 	}
 	
 	/*Center align the section title*/
 	#skills{
 		text-align: center;
 		font-weight: 700;
-	}
-
-	.footer p{
-		text-align: center;
 		margin-bottom: 0;
-		padding: 0 .5rem;
 	}
 
-	
+	/*Makes skill section look as one whole*/
+	.skill-one ul{
+		margin-bottom: 0;
+	}
+
 	/*CSS for creating skills tags in skills section*/
 	.skill_set ul li{
   		border: 1px hidden black;
@@ -194,8 +198,11 @@ so changed font-size in the flaticon.css*/
 /*Interests section*/
 
 	.interests{
-		padding: 4rem 0;
-		margin-top: 2rem;
+		padding: 12% 0;
+	}
+
+	.interests .row{
+		margin-bottom: 5%;
 	}
 	
 	/*Center align the section title*/
@@ -208,13 +215,22 @@ so changed font-size in the flaticon.css*/
 		font-size: 2.5rem;
 		text-align: center;
 		font-weight: 700;
+		margin-bottom: 3%;
 	}
 
 	.interests i{
 		display: block;
 		margin: auto;
 		width: 150px; /*makes the icon font position at center*/
-		margin-bottom: 1.5rem;
+		margin-bottom: 6%;
+	}
+
+/*Footer section*/
+
+	.footer p{
+		text-align: center;
+		margin-bottom: 0;
+		padding: 0 .5rem;
 	}
 
 }
@@ -269,7 +285,8 @@ so changed font-size in the flaticon.css*/
 @media (min-width: 550px) {
 	
 	.head {
-		padding: 12rem 0 9rem 0;
+		/*padding: 12rem 0 9rem 0;*/
+		padding: 10% 0 6% 0;
 	}
 
 	.button{
@@ -286,15 +303,19 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.head .scroll-row{
-		margin-top: 16.5rem;
+		/*margin-top: 16.5rem;*/
+		margin-top: 11%;
+
 	}
 
 	.education {
-		padding: 12rem 0 9rem 0;
+		/*padding: 12rem 0 9rem 0;*/
+		padding: 10% 0 5% 0;
 	}
 
 	.education .scroll-row{
-		margin-top: 8rem;
+		/*margin-top: 8rem;*/
+		margin-top: 8%;
 	}
 
 	.achivements {
