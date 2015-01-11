@@ -32,7 +32,7 @@ so changed font-size in the flaticon.css*/
 /*Head section*/	
 
 	.head{
-		padding: 6.75% 0 6.75%;
+		padding: 14% 0 10%;
 	}
 
 	.head_title{
@@ -239,16 +239,16 @@ so changed font-size in the flaticon.css*/
 @media (min-width: 375px){
 
 	.head{
-		padding: 6rem 0;
+		/*padding: 6rem 0;*/
 	
 	}
 
 	.education{
-		padding: 5rem 0 4rem 0;
+		/*padding: 5rem 0 4rem 0;*/
 	}
 
 	.interests{
-		padding: 2rem 0;
+		/*padding: 2rem 0*/;
 	}
 
 }
@@ -257,25 +257,25 @@ so changed font-size in the flaticon.css*/
 @media (min-width: 400px) {
 	
 	.head{
-		padding: 9rem 0;
+		/*padding: 9rem 0;*/
 	
 	}
 
 	.scroll-row-head{
-		margin-top: 6.5rem;
+		/*margin-top: 6.5rem;*/
 	}
 
 	.education {
-		padding: 9rem 0 5rem 0;
+		/*padding: 9rem 0 5rem 0;*/
 	}
 
 	.skills {
-		padding: 6rem 0;
+		/*padding: 6rem 0;*/
 	}
 
 	.experience{
-		padding: 4rem 0;
-		margin-top: 2rem;
+		/*padding: 4rem 0;
+		margin-top: 2rem;*/
 	}
 	
 
@@ -304,34 +304,38 @@ so changed font-size in the flaticon.css*/
 
 	.head .scroll-row{
 		/*margin-top: 16.5rem;*/
-		margin-top: 11%;
+		margin-top: 8%;
 
 	}
 
 	.education {
 		/*padding: 12rem 0 9rem 0;*/
-		padding: 10% 0 5% 0;
+		/*padding: 10% 0 5% 0;*/
 	}
 
 	.education .scroll-row{
 		/*margin-top: 8rem;*/
-		margin-top: 8%;
+		margin-top: 1%;
+	}
+
+	#education{
+		margin-bottom: 2%;
 	}
 
 	.achivements {
-		padding: 9rem 0;
+		/*padding: 9rem 0;*/
 	}
 
 	.achivements .scroll-row{
-		margin-top: 6rem;
+		margin-top: 12%;
 	}
 
 	.skills {
-		padding: 20rem 0;
+		/*padding: 20rem 0;*/
 	}
 	
 	.skills .scroll-row{
-		margin-top: 15rem;
+		margin-top: 25%;
 	}
 }
 
@@ -339,25 +343,38 @@ so changed font-size in the flaticon.css*/
 @media (min-width: 750px) {
 
 	.head{
-		padding: 12rem 0 10rem 0;
+		/*padding: 12rem 0 10rem 0;*/
+	}
+
+	.head .scroll-row{
+		/*margin-top: 16.5rem;*/
+		margin-top: 0;
+
 	}
 
 	.education {
-		padding: 15rem 0 15rem 0;
+		/*padding: 15rem 0 15rem 0;*/
 	}
 
 	.education .scroll-row{
-		margin-top: 16rem;
+		margin-top: 11%;
 	}
 
-	.achivements .scroll-row{
-		margin-top: 13rem;
+	.experience .row h5{
+		margin-top: 10%;
 	}
 
-	.achivements {
-		padding: 12rem 0;
+	.achivements{
+		padding: 5% 0;
 	}
-	
+
+	.achivements .row h5{
+		margin-top: 8%;
+	}
+
+	.interests{
+		padding: 6%;
+	}
 }
 
 /* Larger than desktop */
@@ -384,98 +401,68 @@ so changed font-size in the flaticon.css*/
 		width: auto;
 	}
 
-	.head{
-		padding: 19rem 0 13rem 0;
-		margin-top: 4rem;
-	}
-
 	#name{
 		font-size: 5.5rem;
 		text-align: left;
 	}
 
 	.head .scroll-row{
-		margin-top: 22rem;
+		margin-top: 16%;
 	}
 
-	.education{
-		padding: 15rem 0;	
-		margin-top: 5rem;
-	}
-
-	.experience{
-		padding: 5rem 0;
+	.education .scroll-row{
+		margin-top: 6%;
 	}
 
 	/*Center aligns text and makes headings bold*/
 	.experience .row h5{
 		text-align: left;
-	}
-
-	.achivements{
-		padding: 13rem 0;
-		margin-top: 4rem;
+		margin-top: 6%;
 	}
 
 	.achivements .row h5{
 		text-align: left;
+		margin-top: 6%;
 	}
 
-	.skills{
-		padding: 18rem 0;
-		margin-top: 6rem;
+	.achivements .scroll-row{
+		margin-top: 0;
+	}
+
+	.skills .scroll-row{
+		margin-top: 21%;
 	}
 	
 	.interests{
-		padding: 6rem 0;
+		padding: 4% 0 2%;
+	}
+
+	.interests .row{
+		margin-bottom: 2%;
 	}
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 
-	.head{
-			padding: 15rem 0 17rem 0;
-	}
-
-	.head .scroll-row{
-		margin-top: 19rem;
-	}
-
-	.education {
-		padding: 10rem 0 16rem 0;
-	}
-
 	.education .scroll-row{
-		margin-top: 10rem;
+		margin-top: 3%;
 	}
 
-	.experience{
-		padding: 2rem 0;
+	.skills{
+		padding: 6% 0;
 	}
 
-	.experience .scroll-row{
-		margin-top: 8rem;
-	}
-
-	.achivements {
-		padding: 6rem 0;
-	}
-
-	.achivements .scroll-row{
-		margin-top: 11rem;
-	}
-
-	.skills {
-		padding: 8rem 0 12rem 0;
+	#skills{
+		margin-bottom: 3%;
 	}
 
 	.skills .scroll-row{
-		margin-top: 16rem;
+		margin-top: 7%;
 	}
 
 	.interests {
-		padding: 2rem 0 2rem 0;
+		padding: 2% 0 1% 0;
 	}
 
 
