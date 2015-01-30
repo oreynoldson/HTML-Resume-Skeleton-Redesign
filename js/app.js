@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$(document).on("click", ".arrowDown, .arrowUp, .Btn", function(e){
 		e.preventDefault();
 		//where to scroll is stored as data in html
-		var scrollToData = $(this).attr("data-sroll-to");
+		var scrollToData = $(this).attr("data-scroll-to");
 		//takes data in html and makes into a class
 		var scrollTo = "." + scrollToData;
 		//time of scroll animation

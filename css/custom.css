@@ -32,7 +32,7 @@ so changed font-size in the flaticon.css*/
 /*Head section*/	
 
 	.head{
-		padding: 14% 0 10%;
+		padding: 5% 0 10%;
 	}
 
 	.head_title{
@@ -42,7 +42,6 @@ so changed font-size in the flaticon.css*/
 	#name{
 		font-size: 3rem;
 		text-align: center;
-		font-weight: 700;
 	}
 	
 	/*Social icons*/
@@ -82,6 +81,63 @@ so changed font-size in the flaticon.css*/
 	.scroll-row a:hover{
 		cursor: pointer;
 	}
+
+/*Portfolio section*/
+
+.portfolio{
+	
+}
+
+.project{
+	margin-bottom: 30px;
+}
+
+.project .thumbnail{
+	width: 100%;
+	border-radius: 5%;
+	overflow: hidden;
+	position: relative;
+	max-height: 120px;
+}
+
+.project .thumbnail img {
+	min-width: 100%;
+	min-height: 120px;
+}
+
+.project .thumbnail span{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	z-index: 10;
+	text-align: center;
+	background-color: black;
+	color: white;
+	opacity: .8;
+}
+
+.project .thumbnailInfo{
+	width: 100%;
+	margin: 2% 0 0 0;
+}
+
+.project .thumbnailInfo .infoTitle{
+	text-align: center;
+}
+
+.project .thumbnailInfo p{
+	text-align: center;
+	margin-bottom: 0.5rem;
+}
+
+.portfolio .thumbnail img {
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.project .thumbnail:hover{
+	cursor: pointer;
+}
 
 /*Education section*/
 
@@ -238,45 +294,26 @@ so changed font-size in the flaticon.css*/
 /*I-phone 6*/
 @media (min-width: 375px){
 
-	.head{
-		/*padding: 6rem 0;*/
-	
-	}
+.project .thumbnail{
+	max-height: 135px;
+}
 
-	.education{
-		/*padding: 5rem 0 4rem 0;*/
-	}
-
-	.interests{
-		/*padding: 2rem 0*/;
-	}
+.project .thumbnail img{
+	max-height: 135px;
+}
 
 }
 
 /* I phone 6 plus */
 @media (min-width: 400px) {
 	
-	.head{
-		/*padding: 9rem 0;*/
-	
-	}
+.project .thumbnail{
+	max-height: 145px;
+}
 
-	.scroll-row-head{
-		/*margin-top: 6.5rem;*/
-	}
-
-	.education {
-		/*padding: 9rem 0 5rem 0;*/
-	}
-
-	.skills {
-		/*padding: 6rem 0;*/
-	}
-
-	.experience{
-		/*padding: 4rem 0;
-		margin-top: 2rem;*/
-	}
+.project .thumbnail img{
+	min-height: 145px;
+}
 	
 
 }
@@ -305,7 +342,22 @@ so changed font-size in the flaticon.css*/
 	.head .scroll-row{
 		/*margin-top: 16.5rem;*/
 		margin-top: 8%;
+	}
 
+	.project{
+	margin-bottom: 40px;
+	}
+	.portfolio .project .thumbnail{
+		width: 100%;
+		min-height: 170px;
+	}
+
+	.project .thumbnail img{
+	min-height: 170px;
+	}
+
+	.portfolio .project .thumbnailInfo{
+		width: 100%;
 	}
 
 	.education {
@@ -349,7 +401,15 @@ so changed font-size in the flaticon.css*/
 	.head .scroll-row{
 		/*margin-top: 16.5rem;*/
 		margin-top: 0;
+	}
 
+	.portfolio .project .thumbnail{
+		min-height: 230px;
+	}
+
+
+	.project .thumbnail img{
+		min-height: 230px;
 	}
 
 	.education {
@@ -380,13 +440,13 @@ so changed font-size in the flaticon.css*/
 /* Larger than desktop */
 @media (min-width: 1000px) {
 
-	.name_div{
+	/*.name_div{
 		float: left;
 		min-width: 50%;
 		margin-right: 5%;
-	}
+	}*/
 
-	.social_div{
+	/*.social_div{
 		float: left;
 		min-width: 20%; 
 	}
@@ -394,20 +454,35 @@ so changed font-size in the flaticon.css*/
 	.social_div i{
 		font-size: 4rem;
 		margin: 1.5rem .5rem 0 1rem;
-	}
+	}*/
 
-	.button{
+	/*.button{
 		display: inline-block;
 		width: auto;
-	}
+	}*/
 
 	#name{
 		font-size: 5.5rem;
-		text-align: left;
+		/*text-align: left;*/
 	}
 
-	.head .scroll-row{
+	/*.head .scroll-row{
 		margin-top: 16%;
+	}*/
+
+	.portfolio .project .thumbnail{
+		width: 45%;
+		min-height: 190px;
+		margin: 0 0 0 2.5%;
+	}
+
+	.portfolio .project .thumbnailInfo{
+		width: 45%;
+		margin: 0 0 0 5%;
+	}
+
+	.project .thumbnail img{
+		min-height: 190px;
 	}
 
 	.education .scroll-row{
@@ -445,8 +520,37 @@ so changed font-size in the flaticon.css*/
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
 
+	.name_div{
+		float: left;
+		min-width: 50%;
+		margin-right: 5%;
+	}
+
+	.social_div{
+		float: left;
+		min-width: 20%; 
+	}
+	
+	.social_div i{
+		font-size: 4rem;
+		margin: 1.5rem .5rem 0 1rem;
+	}
+
+	.button{
+		display: inline-block;
+		width: auto;
+	}
+
+	#name{
+		text-align: left;
+	}
+
+	.head .scroll-row{
+		margin-top: 20%;
+	}
+
 	.education .scroll-row{
-		margin-top: 3%;
+		margin-top: 6%;
 	}
 
 	.skills{
@@ -458,7 +562,7 @@ so changed font-size in the flaticon.css*/
 	}
 
 	.skills .scroll-row{
-		margin-top: 7%;
+		margin-top: 12%;
 	}
 
 	.interests {
